@@ -3,11 +3,8 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      backgroundImage: {
-        'bg-stars' : 'url(https://i.imgur.com/XqQXxqQ.png)',
-      },
       colors: {
-        primary: '#00bcd4',
+        primary: ' #ffffff',
         blue:{
           450:  '#00bcd4',
         }
