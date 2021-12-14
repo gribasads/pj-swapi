@@ -1,6 +1,8 @@
+import axios from 'axios'
 import React from 'react'
 
 function Search () {
+    //axios.get('')
     return (
         <div className ={'flex flex-col items-center justify-center bg-gray-900 rounded-xl p-4 w-80'}>
             <div className={'flex flex-col items-center'}>
