@@ -13,7 +13,6 @@ function App() {
   {/* <Loading/>
   <Search/>
   <Result/> */}
-  <Search/>
   </div>
 
     
