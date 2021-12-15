@@ -28,7 +28,7 @@ return (
   <div >
     <div className="text-xl font-medium text-white">Olá!</div>
     <p className="text-white">Para Começar seu teste, digite um e-mail</p>
-    <input required type="email" className="border text-white border-yellow-300 bg-gray-800 focus:ring-2 focus:ring-blue-600 rounded-xl w-full" onChange={handleVerify}placeholder="exemplo@exemplo.com" />
+    <input required type="email" className="border text-white border-yellow-300 bg-gray-800 focus:ring-2 focus:ring-blue-600 rounded w-full" onChange={handleVerify}placeholder="exemplo@exemplo.com" />
     &nbsp;
     <button className = {email ?`bg-yellow-300 w-full p-4 text-white font-bold py-2 px-4 rounded-xl shadow-md hover:bg-yellow-400` :
     `bg-gray-600 w-full p-4 text-white font-bold py-2 px-4 rounded-xl shadow-md opacity-25 cursor-not-allowed pointer-events-none`} 
