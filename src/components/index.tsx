@@ -22,6 +22,7 @@ export default function Inicial() {
  
 return (
   <>
+  <img className="p-4"src={"./logo.png"} />
   {loading?<Loading loading={loading}/>  : (
     <div className="flex flex-col items-center justify-center bg-gray-900 rounded-xl p-4">
   <div >
